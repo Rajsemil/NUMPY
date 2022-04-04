@@ -1,0 +1,13 @@
+import numpy as np
+arr1 = np.arange(1,10).reshape(3,3)
+arr2 = np.arange(1,10).reshape(3,3)
+print(arr1)
+print(arr2)
+print(arr1 + arr2)
+print(arr1 - arr2)
+print(arr1 * arr2)
+print(arr1 / arr2)
+print(arr1 @ arr2)
+arr1.dot(arr2)
+arr1.max()
+arr1.max(axis = 0) 
